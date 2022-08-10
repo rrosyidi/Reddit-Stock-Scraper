@@ -41,3 +41,4 @@ with open('WSB ' + str(date.month) + '-' + str(date.day) + ' ' + str(hourConv) +
     for x in sortedTickers:
         if x[1] != 1:
             print("Ticker: " + str(x[0]) + " Count: " + str(x[1]), file = outfile)
+            # tr
